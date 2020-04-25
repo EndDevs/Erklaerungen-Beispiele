@@ -5,8 +5,8 @@ Erklärung + Code
 Einfacher RepeatingTask der unendlich weiterläuft
 So wird dieser zum Beispiel gestartet:
 ```php
-$this->getScheduler()->scheduleRepeatingTask();```
-
+$this->getScheduler()->scheduleRepeatingTask();
+```
 Diese kann überall gestartet werden wo man es benötigt (event, command)
 
 Die Task datei nennen wir Time.php
