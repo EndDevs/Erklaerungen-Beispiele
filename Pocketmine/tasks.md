@@ -1,4 +1,5 @@
 **Task**
+
 Erklärung + Code
 
 Einfacher RepeatingTask der unendlich weiterläuft
@@ -25,8 +26,9 @@ public function __construct(Main $main){
 }
 ```
 Natürlich muss das und die Zeit beim starten des Tasks gegeben sein daher:
+```php
 $this->getScheduler()->scheduleRepeatingTask(new Time($this), 20);
-
+```
 Die Zahl 20 bedeutet die Anzahl der Zeit, die gezäht wird in ticks
 20 ticks = 1 sekunde
 
