@@ -33,6 +33,6 @@ $config->set("Name", "CodingSchule");
 $config->save();
 
 $name = $config->get("Name");
-$player->sendMessage("$name");
+$player->sendMessage($name);
 ```
 Naricht: CodingSchule
